@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Addition</title>
+  </head>
+  <body>
+    <h1>Adding Two numbers using JavaScript function</h1>
+    <button onclick="getInputAndShowResult()">Add Numbers</button>
+  </body>
+  <script>
+    function addTwoNumbers(a, b) {
+      return a + b;
+    }
+
+    function getInputAndShowResult() {
+      let num1 = parseFloat(prompt("Enter the first number:"));
+      let num2 = parseFloat(prompt("Enter the second number:"));
+      let result = addTwoNumbers(num1, num2);
+      alert("The result is: " + result);
+    }
+  </script>
+</html>

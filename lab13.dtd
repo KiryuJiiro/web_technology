@@ -1,0 +1,7 @@
+<!ELEMENT StudentProject (Student)>
+<!ELEMENT Student (Name, RollNo, ProjectTitle, Supervisor, ObtainedMarks)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT RollNo (#PCDATA)>
+<!ELEMENT ProjectTitle (#PCDATA)>
+<!ELEMENT Supervisor (#PCDATA)>
+<!ELEMENT ObtainedMarks (#PCDATA)>

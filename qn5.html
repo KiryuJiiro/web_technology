@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image and Video Gallery</title>
+    <style>
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .gallery img,
+      .gallery video {
+        width: 300px;
+        height: 200px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+ 
+    <h1>Image Gallery</h1>
+    <div class="gallery" id="imageGallery">
+      <a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1AKF7LelsXtbK8YAYYdiPrDMZdFd74ZTgkQ&s" target="_blank">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1AKF7LelsXtbK8YAYYdiPrDMZdFd74ZTgkQ&s" alt="Image 1" />
+      </a>
+      <a href="https://tinypng.com/images/social/website.jpg" target="_blank">
+        <img src=https://tinypng.com/images/social/website.jpg>
+      </a>
+      <a href="https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg" target="_blank">
+        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/new-year-background-736885_1280.jpg" alt="Image 3" />
+      </a>
+      <!-- Add more images as needed -->
+    </div>
+
+ <h1>Video Gallery</h1>
+<div class="gallery" id="videoGallery">
+  <video controls width="320">
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  
+  <video controls width="320">
+    <source src="https://samplelib.com/lib/preview/mp4/sample-5s.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
+  <video controls width="320">
+    <source src="https://filesamples.com/samples/video/mp4/sample_640x360.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+  </body>
+</html>
