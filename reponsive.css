@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#topic {
+  background-color: red;
+  width: 100%;
+  max-width: 800px;
+}
+
+@media screen and ((max-width: 600px) and (min-width: 400px)) {
+  #topic {
+    background-color: blue;
+    width: 100%;
+	display:none;
+  }
+}
+@media screen and ((max-width:1200px) and (min-width: 700px))
+{
+	 #topic {
+    background-color: magenta !important;
+    width: 100%;
+  }
+}	

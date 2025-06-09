@@ -1,0 +1,48 @@
+.{
+	padding:0;
+	margin:0;
+}
+
+
+.container
+{
+	text-align:center;
+	border:1px solid red;
+	height:300px;
+	width:500px;
+	float: left;
+	margin:20px;
+	z-index:9;
+	background-color:cyan;
+	position:absolute
+}
+
+#div3
+{
+	position:absolute;
+	top:40%;
+	left:30%;
+	z-index:1;
+	background:magenta;
+}
+
+a:link
+{
+	color:red;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:green;
+}
+
+a:active
+{
+	color:purple;	
+}
+
+a:visited
+{
+	color:white;
+}

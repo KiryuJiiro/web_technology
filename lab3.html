@@ -1,0 +1,45 @@
+<html>
+<head>
+<title> economic survey </title>
+</head>
+<body>
+		<h2 align = center> Economic survey </h2>
+		<form>
+		<div align = center>
+				<fieldset>
+					Name: <input type = "text" name = "uname" default = "Ram Kumar" required = "required" /><br>
+				</fieldset>
+				<fieldset>
+					Address: <input type = "text" name = "address" required= "required" /><br>
+				</fieldset>
+				<fieldset>
+				<label for = "gender" > Gender: </label>
+					<input type = "radio" name = "gender" value = "Male" checked= "checked"/>Male:
+					<input type = "radio" name = "gender" value = "Female" />Female
+					<input type = "radio" name = "gender" value = "Other" />Other
+				</fieldset>
+				<fieldset>
+					Family member: <input type = "number" name = "familyno" />
+				</fieldset>
+				<fieldset>
+					incomesource:<input type = "text" name ="income" placeholder = "Business" />
+				</fieldset>
+			<fieldset>
+				income range: 
+				5-20lakh<input type = "range" name = "range" min = "15lakh" max="greater than 20lakh"/>above 20 lakh
+			</fieldset>
+			<fieldset>
+				Earning Member : <input type = "number" name = "earningno" />
+			</fieldset>
+			<fieldset>
+				<legend align = center> Family info </legend>
+				<textarea  placeholder = "Write about your family here !!! "> </textarea>
+			</fieldset>
+			<fieldset>
+				Family Photo: <input type = "file" name = "fam photo" />
+			</fieldset>
+		</div>
+		
+	</form>
+</body>
+</html>

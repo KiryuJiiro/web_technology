@@ -1,0 +1,119 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+	
+}
+
+    .nav-bar
+    {
+        background-color: rgb(71, 132, 158);
+        color: rgb(245, 245, 220);
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-bar img
+    {
+        height: 30px;
+        width: 40px;
+		border-radius:50%
+    }
+
+    .nav-elements
+    {
+        font-size: 17px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    
+    .nav-elements ul 
+    {
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-elements ul li
+    {
+        padding: 5px 10px;
+        margin: 0px 7px;
+    }
+	
+	.log
+	{
+		display:flex;
+	}
+	
+	.log p
+	{
+		padding-left:10px;
+		padding-top:5px;
+		font-size:20px;
+		padding-bottom:1px;
+		font-family:"Lexend Giga";
+	}
+	
+	.searchbar
+	{
+		height:30px;
+		width:60px;
+		padding-top:5px;
+		padding-left:230px
+	}
+	
+h2
+{
+	padding-top:5px;
+	font-size:30;
+	align:center;
+	font-family:Smooch Sans
+}
+
+.bruv .overlay
+{
+    background-image:url('https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/472504561_1140927558037686_4723492241560412344_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=cc71e4&_nc_eui2=AeEWA0FHc8fPoBTWZyN8be7973dadYnC6TDvd1p1icLpMKNbNs5xczIW56m-H6XETyFp-TquZYuMg8jvRc1HvHOD&_nc_ohc=QlamQWdfDbQQ7kNvgFYYrWW&_nc_zt=23&_nc_ht=scontent.fktm20-1.fna&_nc_gid=As5BzbbUYVQYkMCY6ggFo5i&oh=00_AYDWuSrJKnqDXLavPuyZlfAKUxkWG0lg6rcDq-49U7m0pg&oe=67991117');
+
+    background-position: center;
+    background-size: cover;
+	background-attachment: fixed;
+    height: 139vh;
+    opacity: 0.65;
+}
+ .container
+{
+    position: absolute;
+
+    top: 8%;
+    left: 0;
+    right: 0;
+}
+
+
+.resume_card
+{
+    width: 36%;
+	
+    padding: 20px 20px;
+	
+}
+
+.card_head h3::after
+{
+    content: "";
+    width: 40px;
+    border-bottom: 3px solid red;
+    margin: 5px 0px;
+    display: block;
+}
+
+.resume_card ul
+{
+	font-family:"Lexend Giga";
+	
+}
+

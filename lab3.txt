@@ -1,0 +1,5 @@
+create a economic survey form of a household including
+survey date and time, 
+name of owner, gender, address(province, district, municipality), income range(in range 5-20lakh,above 20 lakh),number of family members, income source, number of earning members, short info about family,
+upload family photo.
+Apply suitable design using div and span

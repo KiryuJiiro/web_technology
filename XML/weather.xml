@@ -1,0 +1,20 @@
+<?xml version = "1.0"?>
+ <date value = "2025-23-4">
+    <weather>
+        <dharan>
+            <minimum_temp>10</minimum_temp>
+            <maximum_temp>20</maximum_temp>
+            <rainfall>High chance</rainfall>
+        </dharan>
+        <kathmandu>
+            <minimum_temp>20</minimum_temp>
+            <maximum_temp>30</maximum_temp>
+            <rainfall>low chance of rainfall</rainfall>
+        </kathmandu>
+        <bhaktapur>
+            <minimum_temp>25</minimum_temp>
+            <maximum_temp>30</maximum_temp>
+            <rainfall>no chance of rainfall</rainfall>
+        </bhaktapur>
+    </weather>
+ </date>

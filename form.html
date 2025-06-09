@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Forms</title>
+	</head>
+	
+	<body>
+		<form action = "post"> <!--Get,post-->
+			<h2>Signup form</h2>
+			<label for ="uname">Username</label> :<input type ="text" name = "uname" placeholder = "Please type your username" value = "zero" readonly = "readonly" disabled = "disabled" size = "69" />
+			<br>
+			<label for ="passwd">password:</label>
+			<input type = "password" name="passswd"/>
+			<br>
+			<label type = "email">email:</label><!-- Other types url,tel,number-->
+			<input type = "email" name = "email" required = "required" />
+			<input type ="submit" value="signup"/>
+			<input type = "button" value = "click here"/>
+			<input type = "reset" value = "reset"/>
+			Your age: <input type = "number" min="18" max="150"/>
+			your feedback : <input type = "range" min = "1" max = "5"/>
+			Date of birth:<input type = "date" name = "dob">
+			birth time:<input type = "time" name = "bt"/>
+			your photo:<input type = "file" name = "photo"/>
+			fav color:<input type = "color" name = "color"/>
+			write about you:
+			<textarea rows = "10" cols ="69">This is default value</textarea>
+		</form>
+	</body>
+</html>

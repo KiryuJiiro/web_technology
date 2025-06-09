@@ -1,0 +1,96 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.blocks
+{
+    display: flex;
+}
+
+.main
+{
+    position: absolute;
+    right: 35%;
+    top: 20%;
+}
+
+.circle
+{
+    background-image: url(https://dictionary.cambridge.org/images/thumb/circle_noun_001_02738.jpg?version=6.0.46);
+    background-size: cover;
+}
+.square
+{
+    background-image:url(https://cdn.vectorstock.com/i/1000v/31/45/cross-sign-or-x-mark-icon-no-symbol-vector-27063145.jpg);
+    background-size: cover;
+}
+
+
+.inner{
+    border: 1px black solid ;
+    height: 100px;
+    width: 100px;
+}
+
+.block1
+{
+    border-top: 1px white solid ;
+    border-left: 1px white solid ;
+    height: 100px;
+    width: 100px;
+}
+
+.block2
+{
+    border-top: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block3
+{
+    border-top: 1px white solid;
+    border-right: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block4
+{
+    border-left: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block6
+{
+    border-right: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block7
+{
+    border-left: 1px white solid;
+    border-bottom: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block8
+{
+    border-bottom: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+
+.block9
+{
+    border-right: 1px white solid;
+    border-bottom: 1px white solid;
+    height: 100px;
+    width: 100px;
+}
+

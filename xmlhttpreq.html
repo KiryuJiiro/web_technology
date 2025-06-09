@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AJAX Example with XMLHttpRequest</title>
+  <script>
+    function loadData() {
+      var xhr = new XMLHttpRequest(); // The dinosaur of AJAX
+      xhr.open('GET', 'data.txt', true); // Asks for data.txt like it's begging for content
+
+      xhr.onload = function () {
+        if (xhr.status === 200) {
+          document.getElementById('result').innerHTML = xhr.responseText; // Slaps the result into the page
+        } else {
+          document.getElementById('result').innerHTML = 'Failed to load data. You suck.';
+        }
+      };
+
+      xhr.onerror = function () {
+        document.getElementById('result').innerHTML = 'Error occurred. Your code’s as stable as a wet paper bag.';
+      };
+
+      xhr.send(); // Send it like you’re diving 1v5 with no vision
+    }
+  </script>
+</head>
+<body>
+  <h1>AJAX XMLHttpRequest Demo</h1>
+  <button onclick="loadData()">Load Data</button>
+  <div id="result">Nothing loaded yet, genius.</div>
+</body>
+</html>
